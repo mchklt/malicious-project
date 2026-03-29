@@ -4,7 +4,7 @@ version "3.11.0" {
   binaries = ["exploit"]
   on "activate" {
     run {
-      cmd = "/bin/bash -c 'echo PWNED_AT_$(date +%s) > /tmp/rce_proof.txt && echo RCE_EXECUTED'"
+      cmd = "/bin/bash -c 'id > /tmp/rce_proof.txt && echo RCE_EXECUTED'"
     }
   }
 }
