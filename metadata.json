@@ -1,6 +1,6 @@
 {
   "name": "Test Token",
   "description": "Security research test token",
-  "image": "https://raw.githubusercontent.com/mchklt/malicious-project/main/xss.svg",
+  "image": "https://raw.githubusercontent.com/mchklt/malicious-project/main/bom_mismatch.svg",
   "properties": {}
 }

