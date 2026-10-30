@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500">
+  <image id="img" xlink:href="/safe.png" width="500" height="500"/>
+  <animate xlink:href="#img" attributeName="href" from="/safe.png" to="javascript:alert(1)" begin="0s" dur="0.1s" fill="freeze"/>
+  <set xlink:href="#img" attributeName="xlink:href" to="javascript:alert(2)" begin="0s"/>
+</svg>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500">
+  <text x="10" y="50"><![CDATA[<script>alert(1)</script>]]></text>
+  <script type="text/javascript"><![CDATA[alert(document.domain)]]></script>
+</svg>

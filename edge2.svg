@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500">
+  <a href="/safe">
+    <animate attributename="href" values="javascript:alert(1)" begin="0s" dur="0.1s" fill="freeze"/>
+    <text x="50" y="50">lowercase attributename</text>
+  </a>
+  <a href="/safe">
+    <animate ATTRIBUTENAME="href" values="javascript:alert(2)" begin="0s" dur="0.1s" fill="freeze"/>
+    <text x="50" y="100">UPPERCASE ATTRIBUTENAME</text>
+  </a>
+</svg>
