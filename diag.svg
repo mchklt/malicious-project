@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:test="http://example.com/ns?a=1&amp;b=2&amp;c=&quot;quoted&quot;">
+  <rect width="10" height="10"/>
+</svg>
