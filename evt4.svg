@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xhtml="http://www.w3.org/1999/xhtml" width="500" height="500">
+  <foreignObject width="500" height="500">
+    <xhtml:body>
+      <xhtml:script>alert(1)</xhtml:script>
+      <xhtml:img src="x" onerror="alert(2)"/>
+      <xhtml:div>Hello from HTML inside SVG</xhtml:div>
+    </xhtml:body>
+  </foreignObject>
+</svg>

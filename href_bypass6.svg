@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xhtml="http://www.w3.org/1999/xhtml" width="500" height="500">
+  <foreignObject width="500" height="500">
+    <xhtml:iframe src="http://169.254.169.254/latest/meta-data/"/>
+  </foreignObject>
+</svg>

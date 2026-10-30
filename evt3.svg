@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500">
+  <style>
+    @import url("https://evil.example.com/track.css");
+    rect { background-image: url("https://evil.example.com/exfil?data=css"); }
+  </style>
+  <defs>
+    <pattern id="p" width="100" height="100">
+      <image href="https://evil.example.com/exfil?pattern=1" width="100" height="100"/>
+    </pattern>
+  </defs>
+  <rect width="500" height="500" style="background-image:url(https://evil.example.com/exfil?inline=1)" fill="url(#p)"/>
+</svg>
