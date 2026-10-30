@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" width="500" height="500">
+  <handler ev:event="load" type="text/ecmascript">alert(1)</handler>
+  <listener event="load" handler="#h1" observer="document"/>
+  <handler id="h1" type="text/ecmascript">alert(2)</handler>
+  <rect width="500" height="500" fill="red">
+    <handler ev:event="click" type="text/ecmascript">alert(3)</handler>
+  </rect>
+</svg>

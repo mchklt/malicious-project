@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xml:base="https://evil.example.com/" width="500" height="500">
+  <image href="https://evil.example.com/payload.svg" width="500" height="500"/>
+  <image href="/test-relative.svg" width="100" height="100"/>
+  <g xml:base="https://attacker.com/">
+    <image href="https://attacker.com/inner.svg" width="100" height="100"/>
+  </g>
+</svg>
